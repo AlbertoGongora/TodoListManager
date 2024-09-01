@@ -38,13 +38,13 @@ Puedes ejecutar el proyecto localmente siguiendo estos pasos:
 1. **Clonar el repositorio:**
 
     ```bash
-    git clone https://github.com/tuusuario/todo-list-manager.git
+    git clone git@github.com:AlbertoGongora/TodoListManager.git
     ```
 
 2. **Navegar a la carpeta del proyecto:**
 
     ```bash
-    cd todo-list-manager
+    cd TodoListManager
     ```
 
 3. **Abrir el proyecto en Visual Studio Code o tu editor preferido.**
