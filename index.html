@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/modals.css">
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+
+</head>
+<body>
+    <article id="container">
+        <header id="header">
+            <h1 id="title">ToDo List Manager</h1>
+        </header>
+        <main>
+            <form id="formTask">
+                <input type="text" id="inserTask">
+                <button id="btnAddTask" type="submit">Add</button>
+            </form>
+            <ul id="taskList">
+                <!-- Aquí se agregarán las tareas dinámicamente -->
+            </ul>
+            <div id="trashIcon" class="hidden">
+                🗑️
+            </div>       
+        </main>
+    </article>
+    <script type="module" src="./JS/app.js"></script>
+</body>
+</html>
